@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <filter id="Ellipse_144" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#f4305d" flood-opacity="0.212"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_144)">
+    <circle id="Ellipse_144-2" data-name="Ellipse 144" cx="28" cy="28" r="28" transform="translate(73.5 17.5) rotate(90)" fill="#f4305d"/>
+  </g>
+  <path id="Icon_map-health" data-name="Icon map-health" d="M16.72,6.053a.334.334,0,0,0-.333-.333H12.053a.334.334,0,0,1-.333-.333V1.053A.334.334,0,0,0,11.387.72H6.053a.334.334,0,0,0-.333.333V5.387a.334.334,0,0,1-.333.333H1.053a.334.334,0,0,0-.333.333v5.333a.334.334,0,0,0,.333.333H5.387a.334.334,0,0,1,.333.333v4.333a.334.334,0,0,0,.333.333h5.333a.334.334,0,0,0,.333-.333V12.053a.334.334,0,0,1,.333-.333h4.333a.334.334,0,0,0,.333-.333Z" transform="translate(54.556 36.78) rotate(90)" fill="#fff"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <filter id="Ellipse_143" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#5ac764" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_143)">
+    <circle id="Ellipse_143-2" data-name="Ellipse 143" cx="28" cy="28" r="28" transform="translate(73.5 17.5) rotate(90)" fill="#5ac764"/>
+  </g>
+  <path id="Icon_awesome-leaf" data-name="Icon awesome-leaf" d="M22.4.4a.638.638,0,0,0-1.16-.049A7.031,7.031,0,0,1,15.09,3.935H11.81a7.874,7.874,0,0,0-7.872,7.872A8.107,8.107,0,0,0,4,12.648,19.617,19.617,0,0,1,15.746,9.184a.656.656,0,1,1,0,1.312C5.438,10.5,1.068,16.814.1,19.188a1.314,1.314,0,0,0,2.431,1A10.787,10.787,0,0,1,5.479,16.47a7.855,7.855,0,0,0,7.171,3.165c6.437-.467,10.968-6.24,10.968-13.309A14.91,14.91,0,0,0,22.4.4Z" transform="translate(33.877 35.006)" fill="#fff"/>
+</svg>

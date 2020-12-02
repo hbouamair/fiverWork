@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <filter id="Ellipse_150" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#206b8a" flood-opacity="0.255"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_150)">
+    <circle id="Ellipse_150-2" data-name="Ellipse 150" cx="28" cy="28" r="28" transform="translate(73.5 17.5) rotate(90)" fill="#206b8a"/>
+  </g>
+  <path id="Icon_material-add-shopping-cart" data-name="Icon material-add-shopping-cart" d="M9.227,23.392A2.576,2.576,0,1,0,11.8,25.967,2.572,2.572,0,0,0,9.227,23.392Zm12.878,0a2.576,2.576,0,1,0,2.576,2.576A2.572,2.572,0,0,0,22.1,23.392ZM9.445,19.207l.039-.155,1.159-2.1h9.594a2.563,2.563,0,0,0,2.254-1.326L27.461,6.6,25.221,5.363h-.013L23.791,7.939l-3.554,6.439H11.2l-.167-.348L8.145,7.939,6.921,5.363,5.711,2.788H1.5V5.363H4.076l4.636,9.774L6.973,18.292a2.49,2.49,0,0,0-.322,1.236A2.583,2.583,0,0,0,9.227,22.1H24.68V19.529H9.767A.327.327,0,0,1,9.445,19.207Z" transform="translate(30.624 32.25)" fill="#fff"/>
+  <path id="Icon_ionic-md-leaf" data-name="Icon ionic-md-leaf" d="M16.157,9.763c0-4.9-4.7-7.513-4.7-7.513s-4.7,2.613-4.7,7.513c0,3.492,2.39,4.13,3.763,4.209v1.446h1.881V13.97C13.767,13.894,16.157,13.256,16.157,9.763Z" transform="translate(34.728 27.081)" fill="#fff"/>
+</svg>

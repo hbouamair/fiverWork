@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <filter id="Ellipse_142" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#ffd300" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_142)">
+    <circle id="Ellipse_142-2" data-name="Ellipse 142" cx="28" cy="28" r="28" transform="translate(73.5 17.5) rotate(90)" fill="#ffd300"/>
+  </g>
+  <path id="Icon_ionic-md-people" data-name="Icon ionic-md-people" d="M16.917,13.637a2.882,2.882,0,1,0-2.933-2.881A2.916,2.916,0,0,0,16.917,13.637Zm-7.823,0a2.882,2.882,0,1,0-2.934-2.881A2.916,2.916,0,0,0,9.095,13.637Zm0,2.113c-2.3,0-6.845,1.1-6.845,3.361V21.7H16.079V19.111C16.079,16.854,11.393,15.75,9.095,15.75Zm7.823.528a5.219,5.219,0,0,0-.838.048,2.863,2.863,0,0,1,1.537,2.785V21.7h6.146V19.111C23.762,16.854,19.215,16.278,16.917,16.278Z" transform="translate(32.323 30.796)" fill="#fff"/>
+</svg>

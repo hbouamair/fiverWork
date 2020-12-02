@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'BentonSansBook';
+  src: url('./fonts/BentonSans\ Book.otf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'BentonSans';
+  src: url('./fonts/BentonSans\ Regular.otf')  format('truetype');
+}
+@font-face {
+  font-family: 'AllertaStencil';
+  src: url('./fonts/Allerta-Regular.ttf')  format('truetype');
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
