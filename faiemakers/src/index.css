@@ -1,17 +1,11 @@
-@font-face {
-  font-family: 'BentonSansBook';
-  src: url('./fonts/BentonSans\ Book.otf')  format('truetype');
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-@font-face {
-  font-family: 'BentonSans';
-  src: url('./fonts/BentonSans\ Regular.otf')  format('truetype');
-}
-@font-face {
-  font-family: 'AllertaStencil';
-  src: url('./fonts/Allerta-Regular.ttf')  format('truetype');
-}
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

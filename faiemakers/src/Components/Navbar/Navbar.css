@@ -1,0 +1,148 @@
+.nav-cont{
+    margin:0 189px 80px 135px;
+}
+
+.navbar {
+
+  background-color: #208a3c !important;
+  border-bottom: solid 1px #EBEBEB;
+}
+
+.bottom-tab-nav {
+  border-top: solid 1px #EBEBEB;
+}
+.bottom-tab-label {
+  margin: 4px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.fixed-bottom {
+ 
+  right: -17px !important;
+  bottom: -11px !important;
+ 
+  
+}
+
+
+.nav-link:hover{
+  translate: scale(1.1);
+  transform: 1s linear;
+}
+.nav-link,
+.bottom-nav-link {
+  color: #208a3c ;
+}
+
+.bottom-nav-link{
+  color: #ffff !important;
+}
+.bottom-nav-link.active {
+  color: #FFD300;
+}
+
+.bottom-tab-label {
+  font-size: 12px;
+}
+
+
+.ui.secondary.pointing.menu a{
+  margin-right:129px !important;
+  font-size: 22px;
+  font-weight: normal !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2d48;
+  border-bottom-width: 3px !important;
+}
+.ui.secondary.pointing.menu .active.item{
+    font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #208a3c !important;
+  border-color: #208a3c !important;
+}
+.bottom-nav{
+ display: none; 
+}
+.a1{
+
+}
+@media only screen and (max-width: 1395px) {
+  .ui.secondary.pointing.menu a{
+    margin-right:60px !important;
+
+  }
+
+  
+}
+@media only screen and (max-width: 1179px) {
+  .ui.secondary.pointing.menu a{
+    margin-right:30px !important;
+
+  }
+
+  
+}
+
+@media only screen and (max-width: 1091px) {
+  .ui.secondary.pointing.menu a{
+    margin-right:10px !important;
+
+  }
+
+  
+}
+
+@media only screen and (max-width: 1021px) {
+  .ui.secondary.pointing.menu a{
+    margin-right:5px !important;
+
+  }
+  .bottom-nav{
+    display: block; 
+   }
+
+  
+}
+@media only screen and (max-width: 991px) {
+ 
+  .nav-cont{
+    display: none;
+}
+  
+}
+@media only screen and (max-width: 850px) {
+  .ui.secondary.pointing.menu a{
+    margin-right:5px !important;
+
+  }
+  .nav-cont{
+    margin:0 0 80px 20px;
+}
+
+
+  
+}
+@media only screen and (max-width: 850px) {
+  .ui.secondary.pointing.menu a{
+    margin-right:5px !important;
+
+  }
+ 
+
+.bootom-nav{
+
+
+}
+
+  
+}
+

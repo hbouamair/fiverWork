@@ -1,0 +1,47 @@
+.btn-home {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 20px #2c2d4833;
+  padding: 21px 37px 18px 37px;
+  border: none;
+  font-family: 'BentonSans' !important;
+  border-radius: 9px;
+}
+
+.title-net {
+  text-align: left;
+  font: normal normal normal 40px/48px Allerta ;
+  letter-spacing: 0px;
+  color: #208a3c !important;
+  opacity: 1;
+}
+.headline {
+  color: #208a3c !important;
+}
+.logo {
+  margin: 10px 29px;
+  width: 35px;
+  height: 28px;
+}
+.top-head {
+  margin: 68px 33px;
+}
+
+.title-net:after {
+  width: 197px;
+  margin-top: 4px;
+  content: " ";
+  display: block;
+  border: 1.5px solid #ffd300;
+  background: #ffd300 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+@media only screen and (max-width: 575px) {
+  .top-head {
+    text-align: center;
+  }
+  .head {
+    padding-bottom: 25px;
+  }
+}

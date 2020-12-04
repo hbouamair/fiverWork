@@ -1,57 +1,65 @@
-import React from 'react'
-import './assets/css/style.css'
-import DropZone from './components/Dashboard/Dropzone/onlyDrop'
-import Topheader from './components/Dashboard/Topheader/TopHeader'
-import Card from './components/Dashboard/Form/Card'
-import Logo from './'
-import logoPr from './assets/logoPrinc.svg'
-import Form from './components/Dashboard/Form/Form'
-import { Button } from 'semantic-ui-react'
+import logo from "./logo.svg";
+import "./App.css";
+import "./assets/css/style.css";
+import Navbar from "./Components/Navbar/index";
+import Box from "@material-ui/core/Box";
+import Apphead from "./Components/Appheader/index";
+import Grid from "@material-ui/core/Grid";
+import Form from "./Components/Section1/Form";
+import Card from "./Components/Section1/Card";
+import logoPr from "./assets/images/logoPrinc.svg";
+import DropZone from "./Components/DropZone/DropZone";
+import DropZone1 from "./Components/DropZone/DropZone1";
+import { Container } from "semantic-ui-react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
- class NewCompenent extends React.Component{
-  render() {
-    return (
-      <div >
-      <div>
-      
+function App() {
+  return (
+    <div className="App">
+      <Apphead />
+       <BrowserRouter>
 
-      
-      </div>
-        {/* Always force latest IE rendering engine or request Chrome Frame */}
-        <div className="upload">
-          <div className="container-fluid">
-            <div className="hero-upload"> <DropZone/></div>
+      <Navbar />
+         <Switch>
+          <Route path="/"  />
+         
+        </Switch>
+      </BrowserRouter>
+      {/* Always force latest IE rendering engine or request Chrome Frame */}
+      <div className="upload">
+        <div className="container">
+          <div className="hero-upload container">
+            {" "}
+            <DropZone1 />{" "}
           </div>
-        </div>
-        <div className="hard-part">
-          <div className="container-fluid   py-5">
-            <div className="row">
-              <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
-                <Form/>
-              </div>
-              <div className="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 tal3a">
-              <Card/>
-             
-                <div className="logo-card">
-                  <img src={logoPr} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="last-upload ">
-          <div className="container">
-            <div className="footer-upload">
-              <DropZone/>
-            </div>
-            <div className="contbtn">
-            <button className="btn-add"> Add another</button>
-            </div>
-          </div>
-          
         </div>
       </div>
-    );
-  }
-};
-export default NewCompenent;
+      <div className="hard-part">
+        <div className="container-fluid top ">
+          <Grid  className="row">
+            <Grid item xs={12} xl={8} lg={8} md={12} sm={12}>
+              <Form />
+            </Grid>
+            <Grid className="tal3a" item xs={12} xl={4} lg={4} md={12} sm={12}>
+              <Card />
+
+              <div className="logo-card">
+                <img className="img-blur" src={logoPr} />
+              </div>
+            </Grid>
+          </Grid>
+        </div>
+      </div>
+      <Container className="last-upload ">
+        <div className="footer-upload ">
+          <DropZone />
+        </div>
+        <div className="contbtn">
+          <button className="btn-add"> Add another</button>
+        </div>
+      </Container>
+    </div>
+  );
+}
+
+export default App;
